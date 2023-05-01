@@ -25,7 +25,7 @@ console.log(JSON.stringify(startingState));
 
 store.dispatch({
     type: "song/addSong",
-    payload: "New Song!!"
+    payload: "New Song!"
 });
 
 const finalState = store.getState();
